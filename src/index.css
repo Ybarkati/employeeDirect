@@ -1,0 +1,99 @@
+body {
+  padding: 2px;
+  margin: 2px;
+  font-family: sans-serif;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: 700px;
+  border: solid black 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.epage,
+.hpage {
+  width: 350px;
+  height: 684px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin: 2px;
+}
+.epage {
+  border: 3px solid rgba(58, 3, 3, 0.425);
+}
+.hpage {
+  border: 3px solid gold;
+}
+.header {
+  border: 3px solid skyblue;
+  padding: 2px;
+  margin: 2px;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+form {
+  width: inherit;
+  padding: 2px;
+  margin: auto;
+}
+form input {
+  width: 330px;
+  font-size: 1.5em;
+  padding: 3px;
+  margin: 3px;
+}
+.elists {
+  height: inherit;
+  border: 3px solid purple;
+  padding: 2px;
+  margin: 2px;
+}
+.elist {
+  border: 2px solid red;
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.infobox {
+  width: 200px;
+  text-align: left;
+}
+
+.resultbox {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+.resultbox .grey {
+  border-bottom: 1px solid grey;
+}
+.resultbox :first-child,
+.resultbox :last-child {
+  border: none;
+}
+.resultbox .elist {
+  border-bottom: 1px solid grey;
+}
+.grey h4,
+.grey h4 + p {
+  padding-left: 1em;
+}
